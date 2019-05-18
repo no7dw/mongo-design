@@ -1,6 +1,6 @@
 ### step 
- - export mongo schema
- - analyst oplog & static
- - query documents & static 
- - analyst result according to expeirence
+ - [x] export mongo schema (shell cmd) 
+ - analyst oplog & static (mtools?)
+ - query documents & static (python)
+ - analyst result according to expeirence(kotlin)
 

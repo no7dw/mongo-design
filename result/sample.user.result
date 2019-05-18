@@ -1,0 +1,97 @@
+MongoDB shell version v4.1.11
+connecting to: mongodb://127.0.0.1:37017/cashLoan?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("22666720-ee59-474a-a44e-66a0bce401f3") }
+MongoDB server version: 4.1.11
+Variety: A MongoDB Schema Analyzer
+Version 1.5.1, released 02 October 2017
+Using collection of "users"
+Using query of { }
+Using limit of 50
+Using maxDepth of 99
+Using sort of { "_id" : -1 }
+Using outputFormat of "ascii"
+Using persistResults of false
+Using resultsDatabase of "varietyResults"
+Using resultsCollection of "usersKeys"
+Using resultsUser of null
+Using resultsPass of null
+Using logKeysContinuously of false
+Using excludeSubkeys of [ ]
+Using arrayEscape of "XX"
+Using lastValue of false
+Using plugins of [ ]
++---------------------------------------------------------------------------------+
+| key                                         | types    | occurrences | percents |
+| ------------------------------------------- | -------- | ----------- | -------- |
+| __v                                         | Number   |          50 |    100.0 |
+| _id                                         | ObjectId |          50 |    100.0 |
+| bankcards                                   | Array    |          50 |    100.0 |
+| contactsInfo                                | Array    |          50 |    100.0 |
+| createdAt                                   | Date     |          50 |    100.0 |
+| password                                    | String   |          50 |    100.0 |
+| phone                                       | String   |          50 |    100.0 |
+| photo                                       | Object   |          50 |    100.0 |
+| risk                                        | Boolean  |          50 |    100.0 |
+| status                                      | String   |          50 |    100.0 |
+| updatedAt                                   | Date     |          50 |    100.0 |
+| isIdentifyAudit                             | Boolean  |          46 |     92.0 |
+| bankcards.XX._id                            | ObjectId |          44 |     88.0 |
+| bankcards.XX.bankName                       | String   |          44 |     88.0 |
+| bankcards.XX.bankcardNo                     | String   |          44 |     88.0 |
+| bankcards.XX.bankcode                       | String   |          44 |     88.0 |
+| bankcards.XX.phone                          | String   |          44 |     88.0 |
+| idCard                                      | String   |          44 |     88.0 |
+| name                                        | String   |          44 |     88.0 |
+| contactsInfo.XX._id                         | ObjectId |          41 |     82.0 |
+| traderPassword                              | String   |          37 |     74.0 |
+| contactsInfo.XX.deleted                     | String   |          33 |     66.0 |
+| contactsInfo.XX.mobile                      | String   |          33 |     66.0 |
+| contactsInfo.XX.name                        | String   |          33 |     66.0 |
+| extraInfoValid                              | Boolean  |          33 |     66.0 |
+| contactsInfo.XX.company                     | String   |          20 |     40.0 |
+| contactsInfo.XX.email                       | String   |          20 |     40.0 |
+| contactsInfo.XX.address                     | String   |          17 |     34.0 |
+| tags                                        | Array    |          13 |     26.0 |
+| tags.XX._id                                 | ObjectId |          12 |     24.0 |
+| tags.XX.name                                | String   |          12 |     24.0 |
+| tags.XX.type                                | String   |          12 |     24.0 |
+| homeAddress                                 | Object   |          11 |     22.0 |
+| homeAddress.area                            | String   |          11 |     22.0 |
+| homeAddress.detail                          | String   |          11 |     22.0 |
+| jobInfo                                     | Object   |          11 |     22.0 |
+| jobInfo.address                             | Object   |          11 |     22.0 |
+| jobInfo.address.area                        | String   |          11 |     22.0 |
+| jobInfo.address.detail                      | String   |          11 |     22.0 |
+| jobInfo.company                             | String   |          11 |     22.0 |
+| jobInfo.jobTitle                            | String   |          11 |     22.0 |
+| jobInfo.telephone                           | String   |          11 |     22.0 |
+| photo.idCardBack                            | String   |          11 |     22.0 |
+| photo.idCardFront                           | String   |          11 |     22.0 |
+| photo.idCardHand                            | String   |          11 |     22.0 |
+| socialContacts                              | Array    |          11 |     22.0 |
+| socialContacts.XX.name                      | String   |          11 |     22.0 |
+| socialContacts.XX.phone                     | String   |          11 |     22.0 |
+| socialContacts.XX.relationship              | String   |          11 |     22.0 |
+| contactsInfo.XX.note                        | String   |          10 |     20.0 |
+| isRiskAuth                                  | Boolean  |          10 |     20.0 |
+| homeAddress.city                            | String   |           9 |     18.0 |
+| homeAddress.county                          | String   |           9 |     18.0 |
+| homeAddress.province                        | String   |           9 |     18.0 |
+| jobInfo.address.city                        | String   |           9 |     18.0 |
+| jobInfo.address.county                      | String   |           9 |     18.0 |
+| jobInfo.address.province                    | String   |           9 |     18.0 |
+| contactsInfo.XX.position                    | String   |           6 |     12.0 |
+| tongdunTBStatus                             | String   |           4 |      8.0 |
+| tongdunCreditStatus                         | String   |           3 |      6.0 |
+| tongdunMobileStatus                         | String   |           3 |      6.0 |
+| socialContacts.XX._id                       | ObjectId |           2 |      4.0 |
+| socialContacts.XX.type                      | String   |           2 |      4.0 |
+| contactsInfo.XX.department                  | String   |           1 |      2.0 |
+| fadadaSignature                             | Object   |           1 |      2.0 |
+| fadadaSignature.customerId                  | String   |           1 |      2.0 |
+| fadadaSignature.hasApply                    | Boolean  |           1 |      2.0 |
+| fadadaSignature.letterOfAttorney            | String   |           1 |      2.0 |
+| fadadaSignature.letterOfAttorneyDownloadUrl | String   |           1 |      2.0 |
+| fadadaSignature.letterOfAttorneyViewPdfUrl  | String   |           1 |      2.0 |
+| tags.XX.id                                  | String   |           1 |      2.0 |
++---------------------------------------------------------------------------------+
