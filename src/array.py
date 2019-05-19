@@ -1,15 +1,13 @@
 import json
 import argparse
-config = {
-    "max_array_length_allow" : 10
-}
+import config 
 
 def report(path):
     print(path)
     with open(path, 'r') as f:
         data = json.load(f)
         for di in data:
-            if(di['lastValue'] == '[Array]' and di['mLength'] > config['max_array_length_allow']):
+            if(di['lastValue'] == '[Array]' and di['mLength'] > config.max_array_length_allow):
                 print("# Warning: key: {} Array too Long, length: {}".format( di['_id']['key'] , str(di['mLength'])) )
         
 
