@@ -3,14 +3,16 @@ import argparse
 import config 
 
 def report(path):
-    print(path)
     with open(path, 'r') as f:
         data = json.load(f)
+
         for di in data:
             if(di['lastValue'] == '[Array]' and di['mLength'] > config.max_array_length_allow):
-                print("# Warning: key: {} Array too Long, length: {}".format( di['_id']['key'] , str(di['mLength'])) )
+                print("# Warning: key: {} Array too long, length: {}".format( di['_id']['key'] , str(di['mLength'])) )
         
-
+        if(len(data) > config.max_fields_each_docs):
+            print("# Warning: Fields too many, length: {}".format(  str(len(data) ) ))
+                
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument(
