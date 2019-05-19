@@ -1,3 +1,0 @@
-mongodrdl --host 127.0.0.1:27017 --db cashLoan --collection devices --out device.drdl --verbose=5
-mloginfo mongod.log --queries
-mlogfilter mongod.log --slow 3000 --json | mongoimport -d test -c myslowcoll
