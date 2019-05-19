@@ -1,0 +1,996 @@
+[
+	{
+		"_id" : {
+			"key" : "__v"
+		},
+		"value" : {
+			"types" : {
+				"Number" : 50
+			}
+		},
+		"totalOccurrences" : 50,
+		"percentContaining" : 100,
+		"lastValue" : "[Number]",
+		"mLength" : 0
+	},
+	{
+		"_id" : {
+			"key" : "_id"
+		},
+		"value" : {
+			"types" : {
+				"ObjectId" : 50
+			}
+		},
+		"totalOccurrences" : 50,
+		"percentContaining" : 100,
+		"lastValue" : "5a0048d162781400174a9293",
+		"mLength" : 24
+	},
+	{
+		"_id" : {
+			"key" : "bankcards"
+		},
+		"value" : {
+			"types" : {
+				"Array" : 50
+			}
+		},
+		"totalOccurrences" : 50,
+		"percentContaining" : 100,
+		"lastValue" : "[Array]",
+		"mLength" : 1
+	},
+	{
+		"_id" : {
+			"key" : "contactsInfo"
+		},
+		"value" : {
+			"types" : {
+				"Array" : 50
+			}
+		},
+		"totalOccurrences" : 50,
+		"percentContaining" : 100,
+		"lastValue" : "[Array]",
+		"mLength" : 2047
+	},
+	{
+		"_id" : {
+			"key" : "createdAt"
+		},
+		"value" : {
+			"types" : {
+				"Date" : 50
+			}
+		},
+		"totalOccurrences" : 50,
+		"percentContaining" : 100,
+		"lastValue" : 1509968081127,
+		"mLength" : undefined
+	},
+	{
+		"_id" : {
+			"key" : "password"
+		},
+		"value" : {
+			"types" : {
+				"String" : 50
+			}
+		},
+		"totalOccurrences" : 50,
+		"percentContaining" : 100,
+		"lastValue" : "$2a$10$KmZ3bvtYaNikzY86JKPn8.ZAQY2PHrEzQfDKhmD6SL3p5J4A511XW",
+		"mLength" : 60
+	},
+	{
+		"_id" : {
+			"key" : "phone"
+		},
+		"value" : {
+			"types" : {
+				"String" : 50
+			}
+		},
+		"totalOccurrences" : 50,
+		"percentContaining" : 100,
+		"lastValue" : "15622622622",
+		"mLength" : 11
+	},
+	{
+		"_id" : {
+			"key" : "photo"
+		},
+		"value" : {
+			"types" : {
+				"Object" : 50
+			}
+		},
+		"totalOccurrences" : 50,
+		"percentContaining" : 100,
+		"lastValue" : "[Object]",
+		"mLength" : 0
+	},
+	{
+		"_id" : {
+			"key" : "risk"
+		},
+		"value" : {
+			"types" : {
+				"Boolean" : 50
+			}
+		},
+		"totalOccurrences" : 50,
+		"percentContaining" : 100,
+		"lastValue" : "true",
+		"mLength" : 4
+	},
+	{
+		"_id" : {
+			"key" : "status"
+		},
+		"value" : {
+			"types" : {
+				"String" : 50
+			}
+		},
+		"totalOccurrences" : 50,
+		"percentContaining" : 100,
+		"lastValue" : "register",
+		"mLength" : 8
+	},
+	{
+		"_id" : {
+			"key" : "updatedAt"
+		},
+		"value" : {
+			"types" : {
+				"Date" : 50
+			}
+		},
+		"totalOccurrences" : 50,
+		"percentContaining" : 100,
+		"lastValue" : 1522340464166,
+		"mLength" : undefined
+	},
+	{
+		"_id" : {
+			"key" : "isIdentifyAudit"
+		},
+		"value" : {
+			"types" : {
+				"Boolean" : 46
+			}
+		},
+		"totalOccurrences" : 46,
+		"percentContaining" : 92,
+		"lastValue" : "false",
+		"mLength" : 5
+	},
+	{
+		"_id" : {
+			"key" : "bankcards.XX._id"
+		},
+		"value" : {
+			"types" : {
+				"ObjectId" : 44
+			}
+		},
+		"totalOccurrences" : 44,
+		"percentContaining" : 88,
+		"lastValue" : "5a0046bebd26e70017bf2f40",
+		"mLength" : 24
+	},
+	{
+		"_id" : {
+			"key" : "bankcards.XX.bankName"
+		},
+		"value" : {
+			"types" : {
+				"String" : 44
+			}
+		},
+		"totalOccurrences" : 44,
+		"percentContaining" : 88,
+		"lastValue" : "中国建设银行",
+		"mLength" : 6
+	},
+	{
+		"_id" : {
+			"key" : "bankcards.XX.bankcardNo"
+		},
+		"value" : {
+			"types" : {
+				"String" : 44
+			}
+		},
+		"totalOccurrences" : 44,
+		"percentContaining" : 88,
+		"lastValue" : "6217000730008372373",
+		"mLength" : 19
+	},
+	{
+		"_id" : {
+			"key" : "bankcards.XX.bankcode"
+		},
+		"value" : {
+			"types" : {
+				"String" : 44
+			}
+		},
+		"totalOccurrences" : 44,
+		"percentContaining" : 88,
+		"lastValue" : "CCB",
+		"mLength" : 3
+	},
+	{
+		"_id" : {
+			"key" : "bankcards.XX.phone"
+		},
+		"value" : {
+			"types" : {
+				"String" : 44
+			}
+		},
+		"totalOccurrences" : 44,
+		"percentContaining" : 88,
+		"lastValue" : "13609832451",
+		"mLength" : 11
+	},
+	{
+		"_id" : {
+			"key" : "idCard"
+		},
+		"value" : {
+			"types" : {
+				"String" : 44
+			}
+		},
+		"totalOccurrences" : 44,
+		"percentContaining" : 88,
+		"lastValue" : "210122199406096035",
+		"mLength" : 18
+	},
+	{
+		"_id" : {
+			"key" : "name"
+		},
+		"value" : {
+			"types" : {
+				"String" : 44
+			}
+		},
+		"totalOccurrences" : 44,
+		"percentContaining" : 88,
+		"lastValue" : "肖旭东",
+		"mLength" : 3
+	},
+	{
+		"_id" : {
+			"key" : "contactsInfo.XX._id"
+		},
+		"value" : {
+			"types" : {
+				"ObjectId" : 41
+			}
+		},
+		"totalOccurrences" : 41,
+		"percentContaining" : 82,
+		"lastValue" : "5a6672889ea07d0015173564",
+		"mLength" : 24
+	},
+	{
+		"_id" : {
+			"key" : "traderPassword"
+		},
+		"value" : {
+			"types" : {
+				"String" : 37
+			}
+		},
+		"totalOccurrences" : 37,
+		"percentContaining" : 74,
+		"lastValue" : "$2a$10$k8kYXUBkpucN76c8wzGzmen5A3/YTEadspzeYRm20ts9BId.w5wpe",
+		"mLength" : 60
+	},
+	{
+		"_id" : {
+			"key" : "contactsInfo.XX.deleted"
+		},
+		"value" : {
+			"types" : {
+				"String" : 33
+			}
+		},
+		"totalOccurrences" : 33,
+		"percentContaining" : 66,
+		"lastValue" : "false",
+		"mLength" : 5
+	},
+	{
+		"_id" : {
+			"key" : "contactsInfo.XX.mobile"
+		},
+		"value" : {
+			"types" : {
+				"String" : 33
+			}
+		},
+		"totalOccurrences" : 33,
+		"percentContaining" : 66,
+		"lastValue" : "13560904618",
+		"mLength" : 11
+	},
+	{
+		"_id" : {
+			"key" : "contactsInfo.XX.name"
+		},
+		"value" : {
+			"types" : {
+				"String" : 33
+			}
+		},
+		"totalOccurrences" : 33,
+		"percentContaining" : 66,
+		"lastValue" : "朱东亮",
+		"mLength" : 3
+	},
+	{
+		"_id" : {
+			"key" : "extraInfoValid"
+		},
+		"value" : {
+			"types" : {
+				"Boolean" : 33
+			}
+		},
+		"totalOccurrences" : 33,
+		"percentContaining" : 66,
+		"lastValue" : "false",
+		"mLength" : 5
+	},
+	{
+		"_id" : {
+			"key" : "contactsInfo.XX.company"
+		},
+		"value" : {
+			"types" : {
+				"String" : 20
+			}
+		},
+		"totalOccurrences" : 20,
+		"percentContaining" : 40,
+		"lastValue" : "魅族科技",
+		"mLength" : 4
+	},
+	{
+		"_id" : {
+			"key" : "contactsInfo.XX.email"
+		},
+		"value" : {
+			"types" : {
+				"String" : 20
+			}
+		},
+		"totalOccurrences" : 20,
+		"percentContaining" : 40,
+		"lastValue" : "MZ_KF@meizu.com",
+		"mLength" : 15
+	},
+	{
+		"_id" : {
+			"key" : "contactsInfo.XX.address"
+		},
+		"value" : {
+			"types" : {
+				"String" : 17
+			}
+		},
+		"totalOccurrences" : 17,
+		"percentContaining" : 34,
+		"lastValue" : "珠海市唐家湾科技创新海岸魅族科技楼",
+		"mLength" : 17
+	},
+	{
+		"_id" : {
+			"key" : "tags"
+		},
+		"value" : {
+			"types" : {
+				"Array" : 13
+			}
+		},
+		"totalOccurrences" : 13,
+		"percentContaining" : 26,
+		"lastValue" : "[Array]",
+		"mLength" : 6
+	},
+	{
+		"_id" : {
+			"key" : "tags.XX._id"
+		},
+		"value" : {
+			"types" : {
+				"ObjectId" : 12
+			}
+		},
+		"totalOccurrences" : 12,
+		"percentContaining" : 24,
+		"lastValue" : "5a2f79ff7258be0019d450fb",
+		"mLength" : 24
+	},
+	{
+		"_id" : {
+			"key" : "tags.XX.name"
+		},
+		"value" : {
+			"types" : {
+				"String" : 12
+			}
+		},
+		"totalOccurrences" : 12,
+		"percentContaining" : 24,
+		"lastValue" : "续贷",
+		"mLength" : 2
+	},
+	{
+		"_id" : {
+			"key" : "tags.XX.type"
+		},
+		"value" : {
+			"types" : {
+				"String" : 12
+			}
+		},
+		"totalOccurrences" : 12,
+		"percentContaining" : 24,
+		"lastValue" : "system",
+		"mLength" : 6
+	},
+	{
+		"_id" : {
+			"key" : "homeAddress"
+		},
+		"value" : {
+			"types" : {
+				"Object" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "[Object]",
+		"mLength" : 0
+	},
+	{
+		"_id" : {
+			"key" : "homeAddress.area"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "辽宁省沈阳市辽中县",
+		"mLength" : 9
+	},
+	{
+		"_id" : {
+			"key" : "homeAddress.detail"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "北一路县社小区八号楼三单元501",
+		"mLength" : 16
+	},
+	{
+		"_id" : {
+			"key" : "jobInfo"
+		},
+		"value" : {
+			"types" : {
+				"Object" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "[Object]",
+		"mLength" : 0
+	},
+	{
+		"_id" : {
+			"key" : "jobInfo.address"
+		},
+		"value" : {
+			"types" : {
+				"Object" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "[Object]",
+		"mLength" : 0
+	},
+	{
+		"_id" : {
+			"key" : "jobInfo.address.area"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "辽宁省沈阳市辽中县",
+		"mLength" : 9
+	},
+	{
+		"_id" : {
+			"key" : "jobInfo.address.detail"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "商业街15号",
+		"mLength" : 6
+	},
+	{
+		"_id" : {
+			"key" : "jobInfo.company"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "沈阳金龟减速机厂有限公司",
+		"mLength" : 12
+	},
+	{
+		"_id" : {
+			"key" : "jobInfo.jobTitle"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "机械加工",
+		"mLength" : 4
+	},
+	{
+		"_id" : {
+			"key" : "jobInfo.telephone"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "024-62902468",
+		"mLength" : 12
+	},
+	{
+		"_id" : {
+			"key" : "photo.idCardBack"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "15815869509_1508640029144.jpg",
+		"mLength" : 29
+	},
+	{
+		"_id" : {
+			"key" : "photo.idCardFront"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "15815869509_1508640027591.jpg",
+		"mLength" : 29
+	},
+	{
+		"_id" : {
+			"key" : "photo.idCardHand"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "15815869509_1508640099545.jpg",
+		"mLength" : 29
+	},
+	{
+		"_id" : {
+			"key" : "socialContacts"
+		},
+		"value" : {
+			"types" : {
+				"Array" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "[Array]",
+		"mLength" : 3
+	},
+	{
+		"_id" : {
+			"key" : "socialContacts.XX.name"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "黎帅",
+		"mLength" : 2
+	},
+	{
+		"_id" : {
+			"key" : "socialContacts.XX.phone"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "15040058959",
+		"mLength" : 11
+	},
+	{
+		"_id" : {
+			"key" : "socialContacts.XX.relationship"
+		},
+		"value" : {
+			"types" : {
+				"String" : 11
+			}
+		},
+		"totalOccurrences" : 11,
+		"percentContaining" : 22,
+		"lastValue" : "同学",
+		"mLength" : 2
+	},
+	{
+		"_id" : {
+			"key" : "contactsInfo.XX.note"
+		},
+		"value" : {
+			"types" : {
+				"String" : 10
+			}
+		},
+		"totalOccurrences" : 10,
+		"percentContaining" : 20,
+		"lastValue" : "这是\"微会\"的专线号码，请不要删除",
+		"mLength" : 17
+	},
+	{
+		"_id" : {
+			"key" : "isRiskAuth"
+		},
+		"value" : {
+			"types" : {
+				"Boolean" : 10
+			}
+		},
+		"totalOccurrences" : 10,
+		"percentContaining" : 20,
+		"lastValue" : "true",
+		"mLength" : 4
+	},
+	{
+		"_id" : {
+			"key" : "homeAddress.city"
+		},
+		"value" : {
+			"types" : {
+				"String" : 9
+			}
+		},
+		"totalOccurrences" : 9,
+		"percentContaining" : 18,
+		"lastValue" : "沈阳市",
+		"mLength" : 3
+	},
+	{
+		"_id" : {
+			"key" : "homeAddress.county"
+		},
+		"value" : {
+			"types" : {
+				"String" : 9
+			}
+		},
+		"totalOccurrences" : 9,
+		"percentContaining" : 18,
+		"lastValue" : "辽中县",
+		"mLength" : 3
+	},
+	{
+		"_id" : {
+			"key" : "homeAddress.province"
+		},
+		"value" : {
+			"types" : {
+				"String" : 9
+			}
+		},
+		"totalOccurrences" : 9,
+		"percentContaining" : 18,
+		"lastValue" : "辽宁省",
+		"mLength" : 3
+	},
+	{
+		"_id" : {
+			"key" : "jobInfo.address.city"
+		},
+		"value" : {
+			"types" : {
+				"String" : 9
+			}
+		},
+		"totalOccurrences" : 9,
+		"percentContaining" : 18,
+		"lastValue" : "沈阳市",
+		"mLength" : 3
+	},
+	{
+		"_id" : {
+			"key" : "jobInfo.address.county"
+		},
+		"value" : {
+			"types" : {
+				"String" : 9
+			}
+		},
+		"totalOccurrences" : 9,
+		"percentContaining" : 18,
+		"lastValue" : "辽中县",
+		"mLength" : 3
+	},
+	{
+		"_id" : {
+			"key" : "jobInfo.address.province"
+		},
+		"value" : {
+			"types" : {
+				"String" : 9
+			}
+		},
+		"totalOccurrences" : 9,
+		"percentContaining" : 18,
+		"lastValue" : "辽宁省",
+		"mLength" : 3
+	},
+	{
+		"_id" : {
+			"key" : "contactsInfo.XX.position"
+		},
+		"value" : {
+			"types" : {
+				"String" : 6
+			}
+		},
+		"totalOccurrences" : 6,
+		"percentContaining" : 12,
+		"lastValue" : "职业信息未填写",
+		"mLength" : 7
+	},
+	{
+		"_id" : {
+			"key" : "tongdunTBStatus"
+		},
+		"value" : {
+			"types" : {
+				"String" : 4
+			}
+		},
+		"totalOccurrences" : 4,
+		"percentContaining" : 8,
+		"lastValue" : "expired",
+		"mLength" : 7
+	},
+	{
+		"_id" : {
+			"key" : "tongdunCreditStatus"
+		},
+		"value" : {
+			"types" : {
+				"String" : 3
+			}
+		},
+		"totalOccurrences" : 3,
+		"percentContaining" : 6,
+		"lastValue" : "expired",
+		"mLength" : 7
+	},
+	{
+		"_id" : {
+			"key" : "tongdunMobileStatus"
+		},
+		"value" : {
+			"types" : {
+				"String" : 3
+			}
+		},
+		"totalOccurrences" : 3,
+		"percentContaining" : 6,
+		"lastValue" : "expired",
+		"mLength" : 7
+	},
+	{
+		"_id" : {
+			"key" : "socialContacts.XX._id"
+		},
+		"value" : {
+			"types" : {
+				"ObjectId" : 2
+			}
+		},
+		"totalOccurrences" : 2,
+		"percentContaining" : 4,
+		"lastValue" : "5a7295dd266898000f1b00f4",
+		"mLength" : 24
+	},
+	{
+		"_id" : {
+			"key" : "socialContacts.XX.type"
+		},
+		"value" : {
+			"types" : {
+				"String" : 2
+			}
+		},
+		"totalOccurrences" : 2,
+		"percentContaining" : 4,
+		"lastValue" : "extra",
+		"mLength" : 5
+	},
+	{
+		"_id" : {
+			"key" : "contactsInfo.XX.department"
+		},
+		"value" : {
+			"types" : {
+				"String" : 1
+			}
+		},
+		"totalOccurrences" : 1,
+		"percentContaining" : 2,
+		"lastValue" : "Senior Marketing Oflicer",
+		"mLength" : 24
+	},
+	{
+		"_id" : {
+			"key" : "fadadaSignature"
+		},
+		"value" : {
+			"types" : {
+				"Object" : 1
+			}
+		},
+		"totalOccurrences" : 1,
+		"percentContaining" : 2,
+		"lastValue" : "[Object]",
+		"mLength" : 0
+	},
+	{
+		"_id" : {
+			"key" : "fadadaSignature.customerId"
+		},
+		"value" : {
+			"types" : {
+				"String" : 1
+			}
+		},
+		"totalOccurrences" : 1,
+		"percentContaining" : 2,
+		"lastValue" : "EA966668DAEA75C9F7C4F83C6B543610",
+		"mLength" : 32
+	},
+	{
+		"_id" : {
+			"key" : "fadadaSignature.hasApply"
+		},
+		"value" : {
+			"types" : {
+				"Boolean" : 1
+			}
+		},
+		"totalOccurrences" : 1,
+		"percentContaining" : 2,
+		"lastValue" : "true",
+		"mLength" : 4
+	},
+	{
+		"_id" : {
+			"key" : "fadadaSignature.letterOfAttorney"
+		},
+		"value" : {
+			"types" : {
+				"String" : 1
+			}
+		},
+		"totalOccurrences" : 1,
+		"percentContaining" : 2,
+		"lastValue" : "0f816ca0d36411e78bc4413be2fc55b0",
+		"mLength" : 32
+	},
+	{
+		"_id" : {
+			"key" : "fadadaSignature.letterOfAttorneyDownloadUrl"
+		},
+		"value" : {
+			"types" : {
+				"String" : 1
+			}
+		},
+		"totalOccurrences" : 1,
+		"percentContaining" : 2,
+		"lastValue" : "https://azureapi.fadada.com/api2//downLoadContract.action?app_id=000474&v=2.0&timestamp=20171127191358&contract_id=0f816ca0d36411e78bc4413be2fc55b0&msg_digest=RUFDREYyNkU2OTlCRDY3OTU0Qzg5Nzk5M0U2RkRGQjg4QUVDNEI3MA==",
+		"mLength" : 215
+	},
+	{
+		"_id" : {
+			"key" : "fadadaSignature.letterOfAttorneyViewPdfUrl"
+		},
+		"value" : {
+			"types" : {
+				"String" : 1
+			}
+		},
+		"totalOccurrences" : 1,
+		"percentContaining" : 2,
+		"lastValue" : "https://azureapi.fadada.com/api2//viewContract.action?app_id=000474&v=2.0&timestamp=20171127191358&contract_id=0f816ca0d36411e78bc4413be2fc55b0&msg_digest=RUFDREYyNkU2OTlCRDY3OTU0Qzg5Nzk5M0U2RkRGQjg4QUVDNEI3MA==",
+		"mLength" : 211
+	},
+	{
+		"_id" : {
+			"key" : "tags.XX.id"
+		},
+		"value" : {
+			"types" : {
+				"String" : 1
+			}
+		},
+		"totalOccurrences" : 1,
+		"percentContaining" : 2,
+		"lastValue" : "5a6158e09e5e31000fef4b6f",
+		"mLength" : 24
+	}
+]
