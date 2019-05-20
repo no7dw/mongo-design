@@ -1,6 +1,6 @@
 ### mongodb embeded document advisor
 
-the main idea of this project is base on the argument ***wheather I should use embedded documents design or not when we design our model***
+the main idea of this project is base on the argument ***whether I should use embedded documents design or not when we design our model***
 
 ### case study
 As we know , MongoDB support flexible schema. When compare to model design in SQL database ,   an e-commerce system  is different in NoSQL way,for example:
@@ -86,4 +86,7 @@ this projects include [mtools](https://github.com/no7dw/mtools.git) and [variety
 
      
 #### todo
+
  - [] export and import to altas
+ - [] implement more rules
+
