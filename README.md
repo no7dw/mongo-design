@@ -61,7 +61,7 @@ addressBook
 
 the addressBook design seems a little bit ambiguous, so what's the better design ???  should I embeded the addressBook in users collection or use reference design 
 
-### some pratical design principle
+### some practical design principle
 
     there is a guy write an [article](http://www.daprota.com/doc/m2/mongodb-data-modeling-adviser-expand.html) summary serveral principle 
 
@@ -78,6 +78,12 @@ the addressBook design seems a little bit ambiguous, so what's the better design
 this projects include [mtools](https://github.com/no7dw/mtools.git) and [variety](https://github.com/no7dw/variety.git) , both of two are folk, but I change the code according to my case usage.
 
 #### how to use 
+    $ cat bin/1.sh
+    - 1 analyse mongodb.log using mlogfilter(from mtools)
+    - 2 analyse documents data in collection using variety
+    - 3 run analyst script for some design rule 
+      
 
+     
 #### todo
  - [] export and import to altas
