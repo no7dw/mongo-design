@@ -59,7 +59,7 @@ def parse_args():
     return args
 if __name__ == "__main__":
     # args = parse_args()
-    path = "./sample-data/varity.result.json"
+    path = "./sample-data/varity.users.result.json"
     oplog_path = "./sample-data/upsert.result"
     report(path, oplog_path)
 
