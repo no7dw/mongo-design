@@ -90,3 +90,7 @@ this projects include [mtools](https://github.com/no7dw/mtools.git) and [variety
  - [] export and import to altas
  - [] implement more rules
 
+#### notes
+    
+   MongoDB Atlas account using : wdeng#kalengo.com (#->@)
+
