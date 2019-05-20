@@ -2,6 +2,8 @@
 
 the main idea of this project is base on the argument ***whether I should use embedded documents design or not when we design our model***
 
+### demo video
+   ![demo](https://raw.githubusercontent.com/no7dw/mongo-design/master/demo.gif)
 ### case study
 As we know , MongoDB support flexible schema. When compare to model design in SQL database ,   an e-commerce system  is different in NoSQL way,for example:
 
